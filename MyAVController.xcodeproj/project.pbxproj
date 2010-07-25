@@ -204,7 +204,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Flashcode_Prefix.pch;
+				GCC_PREFIX_HEADER = MyAVController_Prefix.pch;
 				INFOPLIST_FILE = "MyAVController-Info.plist";
 				PRODUCT_NAME = Flashcode;
 			};

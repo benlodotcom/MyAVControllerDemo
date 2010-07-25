@@ -1,0 +1,545 @@
+TFlashcode
+v7
+r0
+t301785213.269864
+cCheck dependencies
+cCpResource build/Release-iphoneos/Flashcode.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Info.plist MyAVController-Info.plist
+cCompileXIB /Users/Benjamin/MyAVControllerDemo/MainWindow.xib
+cCompileXIB /Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib
+cProcessPCH /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch.gch MyAVController_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch.gch MyAVController_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/main.o /Users/Benjamin/MyAVControllerDemo/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVControllerAppDelegate.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/WelcomeViewController.o /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVController.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/main.o /Users/Benjamin/MyAVControllerDemo/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVControllerAppDelegate.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/WelcomeViewController.o /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode normal armv6
+cCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVController.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode normal armv7
+cCreateUniversalBinary /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode normal "armv6 armv7"
+cGenerateDSYMFile /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app.dSYM /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode
+cProcessProductPackaging "/Users/Benjamin/Library/MobileDevice/Provisioning Profiles/83354C47-D1D7-45D6-955C-221E56895532.mobileprovision" /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/embedded.mobileprovision
+cTouch /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode.xcent
+cCodeSign /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+cValidate /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C3671890000000000000110
+t1278636425
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C2A7DA700000000000001A7
+t1277853095
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C2A7DA700000000000001E5
+t1277853095
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C0473C400000000001AA470
+t1275360196
+s1746032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C0473B9000000000000065C
+t1275360185
+s1628
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B9E000000000037E540
+t1275018142
+s3663168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004BFE05F700000000000004FE
+t1274938871
+s1278
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004C04586000000000000D6920
+t1275353184
+s878880
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004C04585700000000000001CF
+t1275353175
+s463
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004BFE08A7000000000002ECC0
+t1274939559
+s191680
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h
+c000000004BFE085A00000000000004DB
+t1274939482
+s1243
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C045AEF0000000000253180
+t1275353839
+s2437504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Users/Benjamin/Library/MobileDevice/Provisioning Profiles/83354C47-D1D7-45D6-955C-221E56895532.mobileprovision
+c000000004C222B8E00000000000024E1
+t1277307790
+s9441
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h
+c000000004C4CA79600000000000004E2
+t1280092054
+s1250
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<CoreVideo/CoreVideo.h>
+i<CoreMedia/CoreMedia.h>
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m
+c000000004C4CA79600000000000011D7
+t1280092054
+s4567
+i"MyAVController.h"
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.h
+c000000004C4CA7960000000000000154
+t1280092054
+s340
+i<UIKit/UIKit.h>
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m
+c000000004C4CA7960000000000000806
+t1280092054
+s2054
+i"MyAVControllerAppDelegate.h"
+i"WelcomeViewController.h"
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.h
+c000000004C4CA796000000000000007E
+t1280092054
+s126
+i<UIKit/UIKit.h>
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m
+c000000004C4CA796000000000000010C
+t1280092054
+s268
+i"WelcomeViewController.h"
+i"MyAVController.h"
+
+N/Users/Benjamin/MyAVControllerDemo/MainWindow.xib
+c000000004C4CA7960000000000004FFB
+t1280092054
+s20475
+
+N/Users/Benjamin/MyAVControllerDemo/MyAVController_Prefix.pch
+c000000004C4CA7960000000000000059
+t1280092054
+s89
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib
+c000000004C4CA79600000000000052AD
+t1280092054
+s21165
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode.xcent
+t1280092411
+s412
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode
+t1280092410
+s26392
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode.LinkFileList
+c000000004C4CA8F7000000000000021C
+t1280092407
+s540
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVController.o
+t1280092410
+s54184
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVControllerAppDelegate.o
+t1280092410
+s46628
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/WelcomeViewController.o
+t1280092410
+s35960
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/main.o
+t1280092410
+s6428
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode
+t1280092411
+s26352
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode.LinkFileList
+c000000004C4CA8F7000000000000021C
+t1280092407
+s540
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVController.o
+t1280092411
+s54060
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVControllerAppDelegate.o
+t1280092410
+s46636
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/WelcomeViewController.o
+t1280092411
+s35964
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/main.o
+t1280092410
+s6408
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+t1280092412
+s374
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app.dSYM
+t1280092411
+s102
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode
+t1280092411
+s59120
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Info.plist
+t1280092407
+s728
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/MainWindow.nib
+t1280092408
+s1130
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/PkgInfo
+t1280092407
+s8
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/ResourceRules.plist
+t1280092407
+s485
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/WelcomeViewController.nib
+t1280092408
+s1489
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/embedded.mobileprovision
+t1280092411
+s9441
+
+N/Users/Benjamin/MyAVControllerDemo/main.m
+c000000004C4CA79600000000000000E5
+t1280092054
+s229
+i<UIKit/UIKit.h>
+
+N/var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch.gch
+t1280092410
+s10090032
+
+N/var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch.gch
+t1280092410
+s9631280
+
+NMyAVController-Info.plist
+c000000004C4CA8A0000000000000036F
+t1280092320
+s879
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301785207#301785207#0(0"0(0#1#0"8609164288#0"0#
+
+CCodeSign /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+s301785211.397742
+e301785212.437546
+r1
+xCodeSign
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+lSLF07#2@45"CodeSign build/Release-iphoneos/Flashcode.app301785211#301785212#0(0"0(0#0#71"/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app8604895456#657"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Benjamin Loulier (YF3Z2X87XM)" --resource-rules=/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/ResourceRules.plist --entitlements /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode.xcent /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app0#
+
+CCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVController.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301785210.557359
+e301785210.915881
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVController.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301785210#301785210#0(0"0(0#0#59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m8613491008#1852"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv6 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVController.o0#
+
+CCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVControllerAppDelegate.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301785210.342406
+e301785210.557241
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVControllerAppDelegate.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m301785210#301785210#0(0"0(0#0#70"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m8593681440#1874"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv6 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/MyAVControllerAppDelegate.o0#
+
+CCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/WelcomeViewController.o /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301785210.510944
+e301785210.659369
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/WelcomeViewController.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301785210#301785210#0(0"0(0#0#66"/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m8616266528#1866"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv6 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/WelcomeViewController.o0#
+
+CCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/main.o /Users/Benjamin/MyAVControllerDemo/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301785210.341153
+e301785210.510826
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/main.o
+x/Users/Benjamin/MyAVControllerDemo/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/Benjamin/MyAVControllerDemo/main.m301785210#301785210#0(0"0(0#0#41"/Users/Benjamin/MyAVControllerDemo/main.m8605068352#1824"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv6 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/main.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVController.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301785210.954811
+e301785211.263080
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVController.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301785210#301785211#0(0"0(0#0#59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m8615814912#1852"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv7 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVController.o0#
+
+CCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVControllerAppDelegate.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301785210.731913
+e301785210.876277
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVControllerAppDelegate.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m301785210#301785210#0(0"0(0#0#70"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m8609564960#1874"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv7 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/MyAVControllerAppDelegate.o0#
+
+CCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/WelcomeViewController.o /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301785210.876396
+e301785211.015084
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/WelcomeViewController.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301785210#301785211#0(0"0(0#0#66"/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m8616332352#1866"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv7 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/WelcomeViewController.o0#
+
+CCompileC build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/main.o /Users/Benjamin/MyAVControllerDemo/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301785210.659486
+e301785210.731788
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/main.o
+x/Users/Benjamin/MyAVControllerDemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/Benjamin/MyAVControllerDemo/main.m301785210#301785210#0(0"0(0#0#41"/Users/Benjamin/MyAVControllerDemo/main.m8612411808#1824"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv7 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/main.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Benjamin/MyAVControllerDemo/MainWindow.xib
+s301785207.995402
+e301785208.721383
+r1
+xCompileXIB
+x/Users/Benjamin/MyAVControllerDemo/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib301785207#301785208#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#49"/Users/Benjamin/MyAVControllerDemo/MainWindow.xib8612230688#534"    cd /Users/Benjamin/MyAVControllerDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/MainWindow.nib /Users/Benjamin/MyAVControllerDemo/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib
+s301785207.996269
+e301785208.804578
+r1
+xCompileXIB
+x/Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@36"CompileXIB WelcomeViewController.xib301785207#301785208#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib8609607712#556"    cd /Users/Benjamin/MyAVControllerDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/WelcomeViewController.nib /Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCpResource build/Release-iphoneos/Flashcode.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s301785207.941270
+e301785207.995309
+r1
+xCpResource
+xbuild/Release-iphoneos/Flashcode.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist301785207#301785207#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8615666624#497"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app0#
+
+CCreateUniversalBinary /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode normal "armv6 armv7"
+s301785211.300355
+e301785211.303975
+r1
+xCreateUniversalBinary
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Release-iphoneos/Flashcode.app/Flashcode normal "armv6 armv7"301785211#301785211#0(0"0(0#0#46"/Users/Benjamin/MyAVControllerDemo/armv6 armv78604367648#534"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode -output /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode0#
+
+CGenerateDSYMFile /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app.dSYM /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode
+s301785211.304078
+e301785211.373811
+r1
+xGenerateDSYMFile
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app.dSYM
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode
+lSLF07#2@105"GenerateDSYMFile build/Release-iphoneos/Flashcode.app.dSYM build/Release-iphoneos/Flashcode.app/Flashcode301785211#301785211#0(0"0(0#0#81"/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode8593679552#360"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Flashcode -o /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app.dSYM0#
+
+CLd /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode normal armv6
+s301785210.915987
+e301785210.954686
+r1
+xLd
+x/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode
+xnormal
+xarmv6
+lSLF07#2@130"Link /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode301785210#301785210#0(0"0(0#0#0"8616089536#981"    cd /Users/Benjamin/MyAVControllerDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -filelist /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework AVFoundation -framework CoreGraphics -framework CoreVideo -framework CoreMedia -framework QuartzCore -framework AudioToolbox -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv6/Flashcode0#
+
+CLd /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode normal armv7
+s301785211.263190
+e301785211.300229
+r1
+xLd
+x/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode
+xnormal
+xarmv7
+lSLF07#2@130"Link /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode301785211#301785211#0(0"0(0#0#0"8615516992#981"    cd /Users/Benjamin/MyAVControllerDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -filelist /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework AVFoundation -framework CoreGraphics -framework CoreVideo -framework CoreMedia -framework QuartzCore -framework AudioToolbox -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Objects-normal/armv7/Flashcode0#
+
+CProcessInfoPlistFile /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Info.plist MyAVController-Info.plist
+s301785207.960041
+e301785207.974850
+r1
+xProcessInfoPlistFile
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Info.plist
+xMyAVController-Info.plist
+lSLF07#2@33"Process MyAVController-Info.plist301785207#301785207#0(0"0(0#0#60"/Users/Benjamin/MyAVControllerDemo/MyAVController-Info.plist8616350880#565"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MyAVController-Info.plist -genpkginfo /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/ResourceRules.plist -o /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/Info.plist0#
+
+CProcessPCH /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch.gch MyAVController_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301785208.805851
+e301785210.341029
+r1
+xProcessPCH
+x/var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch.gch
+xMyAVController_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MyAVController_Prefix.pch301785208#301785210#0(0"0(0#0#60"/Users/Benjamin/MyAVControllerDemo/MyAVController_Prefix.pch8604977312#1722"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv7 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Benjamin/MyAVControllerDemo/MyAVController_Prefix.pch -o /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-dkbunzcxmvnfmhdnlphskngimamw/MyAVController_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch.gch MyAVController_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301785208.804718
+e301785210.090916
+r1
+xProcessPCH
+x/var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch.gch
+xMyAVController_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MyAVController_Prefix.pch301785208#301785210#0(0"0(0#0#60"/Users/Benjamin/MyAVControllerDemo/MyAVController_Prefix.pch8605429312#1722"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources/armv6 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Benjamin/MyAVControllerDemo/MyAVController_Prefix.pch -o /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-fndsnxuliitdwvftdaxufzaqtyml/MyAVController_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Benjamin/Library/MobileDevice/Provisioning Profiles/83354C47-D1D7-45D6-955C-221E56895532.mobileprovision" /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/embedded.mobileprovision
+s301785211.374123
+e301785211.375641
+r1
+xProcessProductPackaging
+x/Users/Benjamin/Library/MobileDevice/Provisioning Profiles/83354C47-D1D7-45D6-955C-221E56895532.mobileprovision
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/Benjamin/Library/MobileDevice/Provisioning Profiles/83354C47-D1D7-45D6-955C-221E56895532.mobileprovision" build/Release-iphoneos/Flashcode.app/embedded.mobileprovision301785211#301785211#0(0"0(0#0#96"/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/embedded.mobileprovision8605873856#422"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Benjamin/Library/MobileDevice/Provisioning Profiles/83354C47-D1D7-45D6-955C-221E56895532.mobileprovision" -o /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode.xcent
+s301785211.379102
+e301785211.397659
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode.xcent
+lSLF07#2@188"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode.xcent301785211#301785211#0(0"0(0#0#110"/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode.xcent8609573088#437"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphoneos/Flashcode.build/Flashcode.xcent0#
+
+CTouch /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+s301785211.375704
+e301785211.379001
+r1
+xTouch
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+lSLF07#2@77"Touch /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app301785211#301785211#0(0"0(0#0#0"8604904832#260"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app0#
+
+CValidate /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+s301785212.437749
+e301785213.269804
+r1
+xValidate
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@45"Validate build/Release-iphoneos/Flashcode.app301785212#301785213#0(243"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)1(22@187" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)301785213#18446744073709551615#0#0(6@0"301785213#0#0#0#0#0"0(0#0#71"/Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app8615924064#369"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/Benjamin/MyAVControllerDemo/build/Release-iphoneos/Flashcode.app0#
+

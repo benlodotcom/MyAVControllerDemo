@@ -119,20 +119,24 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299625394;
-			PBXWorkspaceStateSaveDate = 299625394;
+			PBXPerProjectTemplateStateSaveDate = 301784902;
+			PBXWorkspaceStateSaveDate = 301784902;
 		};
 		perUserProjectItems = {
-			431C753611DBE1C50090E2D9 /* PBXTextBookmark */ = 431C753611DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753711DBE1C50090E2D9 /* PBXTextBookmark */ = 431C753711DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753911DBE1C50090E2D9 /* PBXTextBookmark */ = 431C753911DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753A11DBE1C50090E2D9 /* PBXTextBookmark */ = 431C753A11DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753C11DBE1C50090E2D9 /* PBXTextBookmark */ = 431C753C11DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753D11DBE1C50090E2D9 /* PBXTextBookmark */ = 431C753D11DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C755211DBE21F0090E2D9 /* PBXTextBookmark */ = 431C755211DBE21F0090E2D9 /* PBXTextBookmark */;
-			43B12FC211DBEBD600830FCE /* PBXTextBookmark */ = 43B12FC211DBEBD600830FCE /* PBXTextBookmark */;
-			43B12FC311DBEBD600830FCE /* PlistBookmark */ = 43B12FC311DBEBD600830FCE /* PlistBookmark */;
-			43B12FC411DBEBD600830FCE /* PlistBookmark */ = 43B12FC411DBEBD600830FCE /* PlistBookmark */;
+			431BFF2A11FCE04E00161747 /* PBXTextBookmark */ = 431BFF2A11FCE04E00161747 /* PBXTextBookmark */;
+			431BFF2B11FCE04E00161747 /* PlistBookmark */ = 431BFF2B11FCE04E00161747 /* PlistBookmark */;
+			431BFF2C11FCE04E00161747 /* PlistBookmark */ = 431BFF2C11FCE04E00161747 /* PlistBookmark */;
+			431BFF2F11FCE07B00161747 /* PlistBookmark */ = 431BFF2F11FCE07B00161747 /* PlistBookmark */;
+			431C753611DBE1C50090E2D9 = 431C753611DBE1C50090E2D9 /* PBXTextBookmark */;
+			431C753711DBE1C50090E2D9 = 431C753711DBE1C50090E2D9 /* PBXTextBookmark */;
+			431C753911DBE1C50090E2D9 = 431C753911DBE1C50090E2D9 /* PBXTextBookmark */;
+			431C753A11DBE1C50090E2D9 = 431C753A11DBE1C50090E2D9 /* PBXTextBookmark */;
+			431C753C11DBE1C50090E2D9 = 431C753C11DBE1C50090E2D9 /* PBXTextBookmark */;
+			431C753D11DBE1C50090E2D9 = 431C753D11DBE1C50090E2D9 /* PBXTextBookmark */;
+			431C755211DBE21F0090E2D9 = 431C755211DBE21F0090E2D9 /* PBXTextBookmark */;
+			43B12FC211DBEBD600830FCE = 43B12FC211DBEBD600830FCE /* PBXTextBookmark */;
+			43B12FC311DBEBD600830FCE = 43B12FC311DBEBD600830FCE /* PlistBookmark */;
+			43B12FC411DBEBD600830FCE = 43B12FC411DBEBD600830FCE /* PlistBookmark */;
 		};
 		sourceControlManager = 435D975011D1F122009ADC4F /* Source Control */;
 		userBuildSettings = {
@@ -151,6 +155,52 @@
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 89}";
 		};
+	};
+	431BFF2A11FCE04E00161747 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 438CE42F11D2766D00CF55BC /* MyAVController.h */;
+		name = "MyAVController.h: 13";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 0;
+	};
+	431BFF2B11FCE04E00161747 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/Benjamin/MyAVControllerDemo/MyAVController-Info.plist";
+		rLen = 19;
+		rLoc = 0;
+	};
+	431BFF2C11FCE04E00161747 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/Benjamin/MyAVControllerDemo/MyAVController-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	431BFF2F11FCE07B00161747 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/Benjamin/MyAVControllerDemo/MyAVController-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	431C753611DBE1C50090E2D9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -320,8 +370,8 @@
 	438CE42F11D2766D00CF55BC /* MyAVController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1012, 559}}";
-			sepNavSelRange = "{1250, 0}";
-			sepNavVisRange = "{0, 700}";
+			sepNavSelRange = "{329, 0}";
+			sepNavVisRange = "{0, 1163}";
 		};
 	};
 	438CE43011D2766D00CF55BC /* MyAVController.m */ = {
@@ -363,7 +413,7 @@
 		);
 		name = "/Users/Benjamin/banane/MyAVControllerDemo/MyAVController-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	43D32D4B11D370AC00AFA790 /* dmtxregion.c:84 */ = {
 		isa = PBXFileBreakpoint;

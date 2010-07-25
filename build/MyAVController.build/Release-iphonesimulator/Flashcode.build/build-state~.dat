@@ -1,0 +1,359 @@
+TFlashcode
+v7
+r0
+t301784948.096369
+cCheck dependencies
+cProcessInfoPlistFile /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/Info.plist MyAVController-Info.plist
+cCompileXIB /Users/Benjamin/MyAVControllerDemo/MainWindow.xib
+cCompileXIB /Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib
+cProcessPCH /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch.gch MyAVController_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/main.o /Users/Benjamin/MyAVControllerDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVControllerAppDelegate.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/WelcomeViewController.o /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVController.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C49C72C0000000000000132
+t1279903532
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C01F5AE00000000000C05A0
+t1275196846
+s787872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C01F5AA000000000000065C
+t1275196842
+s1628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B7600000000001C8900
+t1275018102
+s1870080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004BFDFDB200000000000004FE
+t1274936754
+s1278
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004C01F51A000000000005A4F0
+t1275196698
+s369904
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004C01F51300000000000001CF
+t1275196691
+s463
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004BFDFF000000000000017F90
+t1274937088
+s98192
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h
+c000000004BFDFEF000000000000004DB
+t1274937072
+s1243
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h
+c000000004C4CA79600000000000004E2
+t1280092054
+s1250
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<CoreVideo/CoreVideo.h>
+i<CoreMedia/CoreMedia.h>
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m
+c000000004C4CA79600000000000011D7
+t1280092054
+s4567
+i"MyAVController.h"
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.h
+c000000004C4CA7960000000000000154
+t1280092054
+s340
+i<UIKit/UIKit.h>
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m
+c000000004C4CA7960000000000000806
+t1280092054
+s2054
+i"MyAVControllerAppDelegate.h"
+i"WelcomeViewController.h"
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.h
+c000000004C4CA796000000000000007E
+t1280092054
+s126
+i<UIKit/UIKit.h>
+
+N/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m
+c000000004C4CA796000000000000010C
+t1280092054
+s268
+i"WelcomeViewController.h"
+i"MyAVController.h"
+
+N/Users/Benjamin/MyAVControllerDemo/MainWindow.xib
+c000000004C4CA7960000000000004FFB
+t1280092054
+s20475
+
+N/Users/Benjamin/MyAVControllerDemo/MyAVController_Prefix.pch
+c000000004C4CA7960000000000000059
+t1280092054
+s89
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib
+c000000004C4CA79600000000000052AD
+t1280092054
+s21165
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/Flashcode.LinkFileList
+c000000004C4CA7DF0000000000000234
+t1280092127
+s564
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVController.o
+t2
+s0
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVControllerAppDelegate.o
+t1280092147
+s47684
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/WelcomeViewController.o
+t2
+s0
+
+N/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/main.o
+t1280092147
+s6280
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app
+t2
+s0
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app.dSYM
+t2
+s0
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/Flashcode
+t2
+s0
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/Info.plist
+t1280092127
+s612
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/MainWindow.nib
+t1280092143
+s1130
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/PkgInfo
+t1280092127
+s8
+
+N/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/WelcomeViewController.nib
+t1280092143
+s1489
+
+N/Users/Benjamin/MyAVControllerDemo/main.m
+c000000004C4CA79600000000000000E5
+t1280092054
+s229
+i<UIKit/UIKit.h>
+
+N/var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch.gch
+t1280092147
+s14896144
+
+NMyAVController-Info.plist
+c000000004C4CA7960000000000000382
+t1280092054
+s898
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301784926#301784927#0(0"0(0#1#0"21673710653276260#0"0#
+
+CCompileC build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVController.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301784947.765563
+e301784948.096258
+r0
+xCompileC
+xbuild/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVController.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:1:
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:13: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:14: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:17: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:23: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:36: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:6: error: no declaration of property 'captureSession' found in the interface
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:9: error: no declaration of property 'prevLayer' found in the interface
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: In function '-[MyAVController init]':
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:18: error: request for member 'prevLayer' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: In function '-[MyAVController initCapture]':
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:31: error: 'AVCaptureDeviceInput' undeclared (first use in this function)
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:31: error: (Each undeclared identifier is reported only once
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:31: error: for each function it appears in.)
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:31: error: 'captureInput' undeclared (first use in this function)
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:32: error: 'AVCaptureDevice' undeclared (first use in this function)
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:35: error: 'AVCaptureVideoDataOutput' undeclared (first use in this function)
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:35: error: 'captureOutput' undeclared (first use in this function)
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:45: error: request for member 'captureSession' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:45: error: 'AVCaptureSession' undeclared (first use in this function)
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:47: error: request for member 'captureSession' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:48: error: request for member 'captureSession' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:50: error: request for member 'captureSession' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:62: error: request for member 'prevLayer' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:62: error: 'AVCaptureVideoPreviewLayer' undeclared (first use in this function)
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:62: error: request for member 'captureSession' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:63: error: request for member 'prevLayer' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:64: error: request for member 'prevLayer' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:65: error: request for member 'prevLayer' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: At top level:
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:71: error: expected ')' before 'AVCaptureOutput'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:73: error: expected ')' before 'AVCaptureConnection'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: In function '-[MyAVController viewDidUnload]':
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:112: error: request for member 'prevLayer' in something not a structure or union
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: In function '-[MyAVController dealloc]':
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:116: error: request for member 'captureSession' in something not a structure or union
+lSLF07#2@67"Compile /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784947#301784948#0(4627"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:1:/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:13: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:14: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:17: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:23: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:36: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:6: error: no declaration of property 'captureSession' found in the interface/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:9: error: no declaration of property 'prevLayer' found in the interface/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: In function '-[MyAVController init]':/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:18: error: request for member 'prevLayer' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: In function '-[MyAVController initCapture]':/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:31: error: 'AVCaptureDeviceInput' undeclared (first use in this function)/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:31: error: (Each undeclared identifier is reported only once/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:31: error: for each function it appears in.)/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:31: error: 'captureInput' undeclared (first use in this function)/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:32: error: 'AVCaptureDevice' undeclared (first use in this function)/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:35: error: 'AVCaptureVideoDataOutput' undeclared (first use in this function)/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:35: error: 'captureOutput' undeclared (first use in this function)/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:45: error: request for member 'captureSession' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:45: error: 'AVCaptureSession' undeclared (first use in this function)/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:47: error: request for member 'captureSession' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:48: error: request for member 'captureSession' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:50: error: request for member 'captureSession' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:62: error: request for member 'prevLayer' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:62: error: 'AVCaptureVideoPreviewLayer' undeclared (first use in this function)/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:62: error: request for member 'captureSession' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:63: error: request for member 'prevLayer' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:64: error: request for member 'prevLayer' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:65: error: request for member 'prevLayer' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: At top level:/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:71: error: expected ')' before 'AVCaptureOutput'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:73: error: expected ')' before 'AVCaptureConnection'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: In function '-[MyAVController viewDidUnload]':/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:112: error: request for member 'prevLayer' in something not a structure or union/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m: In function '-[MyAVController dealloc]':/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m:116: error: request for member 'captureSession' in something not a structure or union29(4@83"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'301784948#85#155#2(7@81"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#1#0#1#0#0"0(13@146"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#13#0#13#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#13#0#13#0#0"0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'301784948#240#131#2(7@81"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#1#0#1#0#0"0(13@122"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#14#0#14#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#14#0#14#0#19"expected * before *0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'301784948#371#141#2(7@81"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#1#0#1#0#0"0(13@132"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#17#0#17#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#17#0#17#0#19"expected * before *0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'301784948#512#131#2(7@81"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#1#0#1#0#0"0(13@122"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#23#0#23#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#23#0#23#0#19"expected * before *0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'301784948#643#141#2(7@81"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#1#0#1#0#0"0(13@132"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#36#0#36#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#36#0#36#0#19"expected * before *0(4@66"No declaration of property 'captureSession' found in the interface301784948#784#137#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#6#0#6#0#0"0(4@61"No declaration of property 'prevLayer' found in the interface301784948#921#132#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#9#0#9#0#0"0(4@68"Request for member 'prevLayer' in something not a structure or union301784948#1152#140#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#18#0#18#0#0"0(4@62"'AVCaptureDeviceInput' undeclared (first use in this function)301784948#1398#134#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#31#0#31#0#43"'*' undeclared (first use in this function)0(4@54"'captureInput' undeclared (first use in this function)301784948#1758#126#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#31#0#31#0#43"'*' undeclared (first use in this function)0(4@57"'AVCaptureDevice' undeclared (first use in this function)301784948#1884#129#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#32#0#32#0#43"'*' undeclared (first use in this function)0(4@66"'AVCaptureVideoDataOutput' undeclared (first use in this function)301784948#2013#138#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#35#0#35#0#43"'*' undeclared (first use in this function)0(4@55"'captureOutput' undeclared (first use in this function)301784948#2151#127#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#35#0#35#0#43"'*' undeclared (first use in this function)0(4@73"Request for member 'captureSession' in something not a structure or union301784948#2278#145#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#45#0#45#0#0"0(4@58"'AVCaptureSession' undeclared (first use in this function)301784948#2423#130#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#45#0#45#0#43"'*' undeclared (first use in this function)0(4@73"Request for member 'captureSession' in something not a structure or union301784948#2553#145#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#47#0#47#0#0"0(4@73"Request for member 'captureSession' in something not a structure or union301784948#2698#145#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#48#0#48#0#0"0(4@73"Request for member 'captureSession' in something not a structure or union301784948#2843#145#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#50#0#50#0#0"0(4@68"Request for member 'prevLayer' in something not a structure or union301784948#2988#140#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#62#0#62#0#0"0(4@68"'AVCaptureVideoPreviewLayer' undeclared (first use in this function)301784948#3128#140#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#62#0#62#0#43"'*' undeclared (first use in this function)0(4@73"Request for member 'captureSession' in something not a structure or union301784948#3268#145#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#62#0#62#0#0"0(4@68"Request for member 'prevLayer' in something not a structure or union301784948#3413#140#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#63#0#63#0#0"0(4@68"Request for member 'prevLayer' in something not a structure or union301784948#3553#140#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#64#0#64#0#0"0(4@68"Request for member 'prevLayer' in something not a structure or union301784948#3693#140#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#65#0#65#0#0"0(23@13"At top level:301784948#3833#75#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#0#0#0#0#0"0(4@37"Expected ')' before 'AVCaptureOutput'301784948#3908#109#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#71#0#71#0#19"expected * before *0(4@41"Expected ')' before 'AVCaptureConnection'301784948#4017#113#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#73#0#73#0#19"expected * before *0(4@68"Request for member 'prevLayer' in something not a structure or union301784948#4238#141#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#112#0#112#0#0"0(4@73"Request for member 'captureSession' in something not a structure or union301784948#4481#146#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m301784854#116#0#116#0#0"0(0#0#59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m8604439392#2029"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources/i386 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVController.o1#
+
+CCompileC build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVControllerAppDelegate.o /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301784947.468604
+e301784947.765403
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVControllerAppDelegate.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m301784947#301784947#0(0"0(0#0#70"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m8605240352#2051"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources/i386 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/MyAVControllerAppDelegate.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/MyAVControllerAppDelegate.o0#
+
+CCompileC build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/WelcomeViewController.o /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301784947.736972
+e301784948.095291
+r0
+xCompileC
+xbuild/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/WelcomeViewController.o
+x/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m:2:
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:13: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:14: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:17: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:23: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:36: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+lSLF07#2@74"Compile /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784947#301784948#0(791"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m:2:/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:13: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:14: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:17: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:23: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h:36: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'5(4@83"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'301784948#92#155#2(7@88"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784948#18446744073709551615#0#0(6@66"/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784854#2#0#2#0#0"0(13@146"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#13#0#13#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#13#0#13#0#0"0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'301784948#247#131#2(7@88"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784948#18446744073709551615#0#0(6@66"/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784854#2#0#2#0#0"0(13@122"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#14#0#14#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#14#0#14#0#19"expected * before *0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'301784948#378#141#2(7@88"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784948#18446744073709551615#0#0(6@66"/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784854#2#0#2#0#0"0(13@132"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#17#0#17#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#17#0#17#0#19"expected * before *0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'301784948#519#131#2(7@88"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784948#18446744073709551615#0#0(6@66"/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784854#2#0#2#0#0"0(13@122"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#23#0#23#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#23#0#23#0#19"expected * before *0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'301784948#650#141#2(7@88"In file included from /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784948#18446744073709551615#0#0(6@66"/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m301784854#2#0#2#0#0"0(13@132"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784948#18446744073709551615#0#0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#36#0#36#0#0"0(6@59"/Users/Benjamin/MyAVControllerDemo/Classes/MyAVController.h301784854#36#0#36#0#19"expected * before *0(0#0#66"/Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m8601375872#2043"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources/i386 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/Classes/WelcomeViewController.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/WelcomeViewController.o1#
+
+CCompileC build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/main.o /Users/Benjamin/MyAVControllerDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301784947.465563
+e301784947.736797
+r1
+xCompileC
+xbuild/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/main.o
+x/Users/Benjamin/MyAVControllerDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/Benjamin/MyAVControllerDemo/main.m301784947#301784947#0(0"0(0#0#41"/Users/Benjamin/MyAVControllerDemo/main.m8605381600#2001"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources/i386 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch -c /Users/Benjamin/MyAVControllerDemo/main.m -o /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Benjamin/MyAVControllerDemo/MainWindow.xib
+s301784927.305802
+e301784943.527447
+r1
+xCompileXIB
+x/Users/Benjamin/MyAVControllerDemo/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib301784927#301784943#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#49"/Users/Benjamin/MyAVControllerDemo/MainWindow.xib8609584448#562"    cd /Users/Benjamin/MyAVControllerDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/MainWindow.nib /Users/Benjamin/MyAVControllerDemo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib
+s301784927.310698
+e301784943.835009
+r1
+xCompileXIB
+x/Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@36"CompileXIB WelcomeViewController.xib301784927#301784943#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib8609408448#584"    cd /Users/Benjamin/MyAVControllerDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/WelcomeViewController.nib /Users/Benjamin/MyAVControllerDemo/WelcomeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app.dSYM /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/Flashcode
+r0
+
+CLd /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/Flashcode normal i386
+r0
+
+CProcessInfoPlistFile /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/Info.plist MyAVController-Info.plist
+s301784927.257330
+e301784927.305685
+r1
+xProcessInfoPlistFile
+x/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/Info.plist
+xMyAVController-Info.plist
+lSLF07#2@33"Process MyAVController-Info.plist301784927#301784927#0(0"0(0#0#60"/Users/Benjamin/MyAVControllerDemo/MyAVController-Info.plist28429445101453416#482"    cd /Users/Benjamin/MyAVControllerDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MyAVController-Info.plist -genpkginfo /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app/Info.plist0#
+
+CProcessPCH /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch.gch MyAVController_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s301784943.837507
+e301784947.464943
+r1
+xProcessPCH
+x/var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch.gch
+xMyAVController_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MyAVController_Prefix.pch301784943#301784947#0(0"0(0#0#60"/Users/Benjamin/MyAVControllerDemo/MyAVController_Prefix.pch8608903168#1893"    cd /Users/Benjamin/MyAVControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-generated-files.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-own-target-headers.hmap -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-all-target-headers.hmap -iquote /Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/Flashcode-project-headers.hmap -F/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator -I/Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/include -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources/i386 -I/Users/Benjamin/MyAVControllerDemo/build/MyAVController.build/Release-iphonesimulator/Flashcode.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Benjamin/MyAVControllerDemo/MyAVController_Prefix.pch -o /var/folders/zv/zvgaJOaFH2We2LSHurgzJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyAVController_Prefix-epjnnopnywqfpracaicgiiofjemp/MyAVController_Prefix.pch.gch0#
+
+CTouch /Users/Benjamin/MyAVControllerDemo/build/Release-iphonesimulator/Flashcode.app
+r0
+
