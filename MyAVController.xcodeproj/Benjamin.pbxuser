@@ -9,38 +9,38 @@
 	};
 	1D3623250D0F684500981E51 /* MyAVControllerAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 923}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 884}}";
 			sepNavSelRange = "{1152, 0}";
-			sepNavVisRange = "{0, 566}";
+			sepNavVisRange = "{1, 1154}";
 		};
 	};
-	1D6058900D05DD3D006BFB54 /* Flashcode */ = {
+	1D6058900D05DD3D006BFB54 /* MyAVController */ = {
 		activeExec = 0;
 		executables = (
-			435D974511D1F104009ADC4F /* Flashcode */,
+			430C1F0A12197A2C00102B33 /* MyAVController */,
 		);
 	};
 	28D7ACF60DDB3853001CB0EB /* WelcomeViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 289}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 438}}";
 			sepNavSelRange = "{118, 0}";
 			sepNavVisRange = "{0, 126}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* WelcomeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 289}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 444}}";
 			sepNavSelRange = "{217, 0}";
 			sepNavVisRange = "{0, 268}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Release;
-		activeExecutable = 435D974511D1F104009ADC4F /* Flashcode */;
+		activeExecutable = 430C1F0A12197A2C00102B33 /* MyAVController */;
 		activeSDKPreference = iphoneos4.0;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* Flashcode */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MyAVController */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* Flashcode */,
+			1D6058900D05DD3D006BFB54 /* MyAVController */,
 		);
 		breakpoints = (
 			435D99A411D23E10009ADC4F /* cameraView.m:23 */,
@@ -48,7 +48,7 @@
 		);
 		codeSenseManager = 435D975111D1F122009ADC4F /* Code sense */;
 		executables = (
-			435D974511D1F104009ADC4F /* Flashcode */,
+			430C1F0A12197A2C00102B33 /* MyAVController */,
 		);
 		perUserDictionary = {
 			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
@@ -119,24 +119,20 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 301784902;
-			PBXWorkspaceStateSaveDate = 301784902;
+			PBXPerProjectTemplateStateSaveDate = 303649274;
+			PBXWorkspaceStateSaveDate = 303649274;
 		};
 		perUserProjectItems = {
+			4303AD0A1218629A003EFCD9 /* PBXTextBookmark */ = 4303AD0A1218629A003EFCD9 /* PBXTextBookmark */;
+			430C1F3312197ADE00102B33 /* PBXTextBookmark */ = 430C1F3312197ADE00102B33 /* PBXTextBookmark */;
+			430C1F3412197ADE00102B33 /* PBXTextBookmark */ = 430C1F3412197ADE00102B33 /* PBXTextBookmark */;
+			430C1F3512197ADE00102B33 /* PBXTextBookmark */ = 430C1F3512197ADE00102B33 /* PBXTextBookmark */;
+			430C1F4512197D5400102B33 /* PBXTextBookmark */ = 430C1F4512197D5400102B33 /* PBXTextBookmark */;
+			430C1F4612197D5400102B33 /* PlistBookmark */ = 430C1F4612197D5400102B33 /* PlistBookmark */;
+			430C1F4912197DAE00102B33 /* PlistBookmark */ = 430C1F4912197DAE00102B33 /* PlistBookmark */;
 			431BFF2A11FCE04E00161747 /* PBXTextBookmark */ = 431BFF2A11FCE04E00161747 /* PBXTextBookmark */;
-			431BFF2B11FCE04E00161747 /* PlistBookmark */ = 431BFF2B11FCE04E00161747 /* PlistBookmark */;
-			431BFF2C11FCE04E00161747 /* PlistBookmark */ = 431BFF2C11FCE04E00161747 /* PlistBookmark */;
-			431BFF2F11FCE07B00161747 /* PlistBookmark */ = 431BFF2F11FCE07B00161747 /* PlistBookmark */;
-			431C753611DBE1C50090E2D9 = 431C753611DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753711DBE1C50090E2D9 = 431C753711DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753911DBE1C50090E2D9 = 431C753911DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753A11DBE1C50090E2D9 = 431C753A11DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753C11DBE1C50090E2D9 = 431C753C11DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C753D11DBE1C50090E2D9 = 431C753D11DBE1C50090E2D9 /* PBXTextBookmark */;
-			431C755211DBE21F0090E2D9 = 431C755211DBE21F0090E2D9 /* PBXTextBookmark */;
-			43B12FC211DBEBD600830FCE = 43B12FC211DBEBD600830FCE /* PBXTextBookmark */;
-			43B12FC311DBEBD600830FCE = 43B12FC311DBEBD600830FCE /* PlistBookmark */;
-			43B12FC411DBEBD600830FCE = 43B12FC411DBEBD600830FCE /* PlistBookmark */;
+			431C753611DBE1C50090E2D9 /* PBXTextBookmark */ = 431C753611DBE1C50090E2D9 /* PBXTextBookmark */;
+			431C753D11DBE1C50090E2D9 /* PBXTextBookmark */ = 431C753D11DBE1C50090E2D9 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 435D975011D1F122009ADC4F /* Source Control */;
 		userBuildSettings = {
@@ -151,78 +147,12 @@
 	};
 	32CA4F630368D1EE00C91783 /* MyAVController_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 289}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 438}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 89}";
 		};
 	};
-	431BFF2A11FCE04E00161747 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 438CE42F11D2766D00CF55BC /* MyAVController.h */;
-		name = "MyAVController.h: 13";
-		rLen = 0;
-		rLoc = 329;
-		rType = 0;
-		vrLen = 1163;
-		vrLoc = 0;
-	};
-	431BFF2B11FCE04E00161747 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleIdentifier,
-		);
-		name = "/Users/Benjamin/MyAVControllerDemo/MyAVController-Info.plist";
-		rLen = 19;
-		rLoc = 0;
-	};
-	431BFF2C11FCE04E00161747 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleIdentifier,
-		);
-		name = "/Users/Benjamin/MyAVControllerDemo/MyAVController-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	431BFF2F11FCE07B00161747 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleIdentifier,
-		);
-		name = "/Users/Benjamin/MyAVControllerDemo/MyAVController-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	431C753611DBE1C50090E2D9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* MyAVControllerAppDelegate.h */;
-		name = "MyAVControllerAppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 340;
-		vrLoc = 0;
-	};
-	431C753711DBE1C50090E2D9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* MyAVControllerAppDelegate.m */;
-		name = "MyAVControllerAppDelegate.m: 34";
-		rLen = 0;
-		rLoc = 1152;
-		rType = 0;
-		vrLen = 566;
-		vrLoc = 0;
-	};
-	431C753911DBE1C50090E2D9 /* PBXTextBookmark */ = {
+	4303AD0A1218629A003EFCD9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* WelcomeViewController.m */;
 		name = "WelcomeViewController.m: 7";
@@ -232,47 +162,7 @@
 		vrLen = 268;
 		vrLoc = 0;
 	};
-	431C753A11DBE1C50090E2D9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 438CE42F11D2766D00CF55BC /* MyAVController.h */;
-		name = "MyAVController.h: 43";
-		rLen = 0;
-		rLoc = 1250;
-		rType = 0;
-		vrLen = 700;
-		vrLoc = 0;
-	};
-	431C753C11DBE1C50090E2D9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* MyAVController_Prefix.pch */;
-		name = "MyAVController_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 89;
-		vrLoc = 0;
-	};
-	431C753D11DBE1C50090E2D9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 229;
-		vrLoc = 0;
-	};
-	431C755211DBE21F0090E2D9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* WelcomeViewController.h */;
-		name = "WelcomeViewController.h: 6";
-		rLen = 0;
-		rLoc = 118;
-		rType = 0;
-		vrLen = 126;
-		vrLoc = 0;
-	};
-	435D974511D1F104009ADC4F /* Flashcode */ = {
+	430C1F0A12197A2C00102B33 /* MyAVController */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -295,30 +185,106 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = Flashcode;
+		name = MyAVController;
 		savedGlobals = {
 		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
-		variableFormatDictionary = {
-			$lr = 1;
-			$pc = 1;
-			$r0 = 1;
-			$r1 = 1;
-			$r10 = 1;
-			$r11 = 1;
-			$r12 = 1;
-			$r2 = 1;
-			$r3 = 1;
-			$r4 = 1;
-			$r5 = 1;
-			$r6 = 1;
-			$r7 = 1;
-			$r8 = 1;
-			$r9 = 1;
-			$sp = 1;
-		};
+	};
+	430C1F3312197ADE00102B33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* MyAVController_Prefix.pch */;
+		name = "MyAVController_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 89;
+		vrLoc = 0;
+	};
+	430C1F3412197ADE00102B33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MyAVControllerAppDelegate.m */;
+		name = "MyAVControllerAppDelegate.m: 34";
+		rLen = 0;
+		rLoc = 1152;
+		rType = 0;
+		vrLen = 1154;
+		vrLoc = 1;
+	};
+	430C1F3512197ADE00102B33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* WelcomeViewController.h */;
+		name = "WelcomeViewController.h: 6";
+		rLen = 0;
+		rLoc = 118;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	430C1F4512197D5400102B33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		name = "MyAVController.m: 125";
+		rLen = 0;
+		rLoc = 5757;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 0;
+	};
+	430C1F4612197D5400102B33 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = "/Users/Benjamin/Desktop/MyAVControllerDemo/MyAVController-Info.plist";
+		rLen = 7;
+		rLoc = 0;
+	};
+	430C1F4912197DAE00102B33 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/Benjamin/Desktop/MyAVControllerDemo/MyAVController-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	431BFF2A11FCE04E00161747 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 438CE42F11D2766D00CF55BC /* MyAVController.h */;
+		name = "MyAVController.h: 13";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 0;
+	};
+	431C753611DBE1C50090E2D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MyAVControllerAppDelegate.h */;
+		name = "MyAVControllerAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	431C753D11DBE1C50090E2D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 229;
+		vrLoc = 0;
 	};
 	435D975011D1F122009ADC4F /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -363,7 +329,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 23;
-		modificationTime = 299069664.410467;
+		modificationTime = 303587471.077963;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -376,44 +342,10 @@
 	};
 	438CE43011D2766D00CF55BC /* MyAVController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1521}}";
-			sepNavSelRange = "{1096, 0}";
-			sepNavVisRange = "{1097, 678}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2028}}";
+			sepNavSelRange = "{5757, 0}";
+			sepNavVisRange = "{464, 229}";
 		};
-	};
-	43B12FC211DBEBD600830FCE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 438CE43011D2766D00CF55BC /* MyAVController.m */;
-		name = "MyAVController.m: 37";
-		rLen = 0;
-		rLoc = 1096;
-		rType = 0;
-		vrLen = 1982;
-		vrLoc = 693;
-	};
-	43B12FC311DBEBD600830FCE /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleInfoDictionaryVersion,
-		);
-		name = "/Users/Benjamin/banane/MyAVControllerDemo/MyAVController-Info.plist";
-		rLen = 0;
-		rLoc = 0;
-	};
-	43B12FC411DBEBD600830FCE /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* MyAVController-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleSignature,
-		);
-		name = "/Users/Benjamin/banane/MyAVControllerDemo/MyAVController-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	43D32D4B11D370AC00AFA790 /* dmtxregion.c:84 */ = {
 		isa = PBXFileBreakpoint;
@@ -428,7 +360,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 84;
-		modificationTime = 299069664.409591;
+		modificationTime = 303587471.079715;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};

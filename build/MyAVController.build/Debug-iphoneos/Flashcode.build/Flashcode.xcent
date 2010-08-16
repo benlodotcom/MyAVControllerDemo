@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>Y2X2H6NV6L.gfilabs.gfi.fr.csis</string>
+	<string>Y2X2H6NV6L.gfilabs.gfi.fr.ergerg</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>Y2X2H6NV6L.gfilabs.gfi.fr.csis</string>
+		<string>Y2X2H6NV6L.gfilabs.gfi.fr.ergerg</string>
 	</array>
 </dict>
 </plist>
