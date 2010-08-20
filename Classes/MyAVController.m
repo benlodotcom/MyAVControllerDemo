@@ -57,8 +57,6 @@
 	/*We add input and output*/
 	[self.captureSession addInput:captureInput];
 	[self.captureSession addOutput:captureOutput];
-	/*We start the capture*/
-	[self.captureSession startRunning];
 	/*We add the Custom Layer (We need to change the orientation of the layer so that the video is displayed correctly)*/
 	self.customLayer = [CALayer layer];
 	self.customLayer.frame = self.view.bounds;
@@ -74,6 +72,8 @@
 	self.prevLayer.frame = CGRectMake(100, 0, 100, 100);
 	self.prevLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
 	[self.view.layer addSublayer: self.prevLayer];
+	/*We start the capture*/
+	[self.captureSession startRunning];
 	
 }
 
