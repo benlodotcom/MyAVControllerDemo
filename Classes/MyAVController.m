@@ -57,6 +57,8 @@
 	/*We add input and output*/
 	[self.captureSession addInput:captureInput];
 	[self.captureSession addOutput:captureOutput];
+    /*We use medium quality, ont the iPhone 4 this demo would be laging too much, the conversion in UIImage and CGImage demands too much ressources for a 720p resolution.*/
+    [self.captureSession setSessionPreset:AVCaptureSessionPresetMedium];
 	/*We add the Custom Layer (We need to change the orientation of the layer so that the video is displayed correctly)*/
 	self.customLayer = [CALayer layer];
 	self.customLayer.frame = self.view.bounds;
