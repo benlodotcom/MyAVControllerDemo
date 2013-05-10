@@ -3,7 +3,7 @@
 @interface WelcomeViewController : UIViewController {
 }
 
-- (IBAction)startFlashcodeDetection;
+- (IBAction)start;
 
 @end
 
